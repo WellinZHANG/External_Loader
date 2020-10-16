@@ -5,6 +5,8 @@
 #define LOADER_OK	0x1
 #define LOADER_FAIL	0x0
 
+extern void SystemClock_Config(void);
+
 /**
  * @brief  System initialization.
  * @param  None
